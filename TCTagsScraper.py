@@ -52,7 +52,7 @@ def get_tags(urls):
 
 start = time.time()
 
-tags = get_tags(urls[15000:16000])
+tags = get_tags(urls[26000:27000])
 
 done = time.time()
 elapsed = done - start
@@ -66,6 +66,6 @@ df = df.drop_duplicates(subset = 'url')
 final = pd.merge(df, tags_df, on='url')
 final
 
-writer = ExcelWriter('TC_final16.xlsx')
+writer = ExcelWriter('TC_final27.xlsx')
 final.to_excel(writer,'Sheet1')
 writer.save()
