@@ -1,5 +1,5 @@
 # Blog-Tagger
-Tagging bolg articles using multilabel classification
+Tagging blog articles using multilabel classification
 
 # Data Collection - Web Scraping
 Using selenium with chrome driver for scraping.
